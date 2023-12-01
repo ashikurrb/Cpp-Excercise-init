@@ -5,10 +5,10 @@ int main(){
     int num;
     cout<< "Enter Number: ";
     cin>>  num;
-if (num%2==0){
-    cout<<"Given number is EVEN";
+if (num>0){
+    cout<<"Given number is a POSITIVE";
 }else{
-cout<<"Giver number is ODD";
+cout<<"Giver number is NEGETIVE";
 }
 
 }
